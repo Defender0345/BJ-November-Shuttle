@@ -15,12 +15,15 @@ import FooterComp from '@/components/FooterComp.vue'
 @import '@/assets/_shared.scss';
 
 * {
-  margin: 0;
+  box-sizing: border-box;
   padding: 0;
-  font-family: 'Nunito Sans', sans-serif;
+  margin: 0;
 }
 
-html {
-  scroll-behavior: smooth;
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: white;
+  color: #333;
+  line-height: 1.6;
 }
 </style>
