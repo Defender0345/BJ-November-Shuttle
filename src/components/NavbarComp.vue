@@ -10,9 +10,9 @@
       <nav>
         <ul>
           <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#cases">Cases</a></li>
-          <li><a href="#blog">Blog</a></li>
+          <li><a href="#about">Services</a></li>
+          <li><a href="#cases">About</a></li>
+          <li><a href="#blog">Gallery</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
@@ -37,6 +37,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    // flex-wrap: wrap;
     background: #333 !important;
     color: white;
     opacity: 0.8;
@@ -99,7 +100,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .hero * {
@@ -138,6 +139,33 @@
   .hero {
     .navbar {
       height: 150px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    .navbar {
+      height: 200px;
+      nav {
+        ul {
+          flex-wrap: wrap;
+          li {
+            margin: 5px;
+            a {
+              font-size: 0.9rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 370px) {
+  .hero {
+    .navbar {
+      height: 220px;
     }
   }
 }

@@ -15,11 +15,17 @@ $primary-form-color: white;
 $form-background: rgba(255, 255, 255, 0.3);
 
 .text-primary {
-  color: #28a745;
+  color: #151c38;
 }
 
 .text-secondary {
   color: #0284d0;
+}
+
+.line {
+  width: 100%;
+  height: 10px;
+  background-image: linear-gradient(90deg, #43bbfe 10%, #324488 100%);
 }
 
 .btn {
@@ -27,23 +33,25 @@ $form-background: rgba(255, 255, 255, 0.3);
   display: inline-block;
   padding: 10px 30px;
   color: white;
-  background: #28a745;
+  text-transform: uppercase;
+  background: #025ec2;
   border: none;
   border-radius: 5px;
 }
 
 .btn:hover {
-  opacity: 0.9;
+  background: #33cff7;
+  color: #333;
 }
 
 .btn-primary,
 .bg-primary {
-  background: #28a745;
+  background: #33cff7;
   color: white;
 }
 .btn-secondary,
 .bg-secondary {
-  background: #0284d0;
+  background: #025ec2;
   color: white;
 }
 .btn-dark,
@@ -185,7 +193,7 @@ img {
 }
 
 .icons i {
-  background-color: #28a745;
+  background-color: #025ec2;
   color: white;
   padding: 1rem;
   border-radius: 50%;
