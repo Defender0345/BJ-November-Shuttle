@@ -1,7 +1,15 @@
-<script setup></script>
+<script setup>
+import ServicesComp from '@/components/ServicesComp.vue'
+import AboutComp from '@/components/AboutComp.vue'
+import LightboxComp from '@/components/LightboxComp.vue'
+</script>
 
 <template>
-  <div><h1>Home View</h1></div>
+  <main>
+    <ServicesComp />
+    <AboutComp />
+    <LightboxComp />
+  </main>
 </template>
 
 <style lang="scss">

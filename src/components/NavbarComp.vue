@@ -19,7 +19,7 @@
     </div>
     <div class="content">
       <h1>Benjamin J November Tours &amp; Airport Shuttle Services</h1>
-      <p>Providing world class shuttle services!</p>
+      <p>Providing World Class Shuttle Services!</p>
       <a href="#contact" class="btn"><i class="fas fa-chevron-right"></i> Contact</a>
     </div>
   </header>
