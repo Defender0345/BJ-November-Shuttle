@@ -2,7 +2,7 @@
 
 <template>
   <div class="line"></div>
-  <div class="row">
+  <div id="gallery" class="row">
     <div class="column">
       <img src="../assets/Images/Grid-Pictures/pic1.jpg" alt="" />
       <img src="../assets/Images/Grid-Pictures/pic6.jpg" alt="" />

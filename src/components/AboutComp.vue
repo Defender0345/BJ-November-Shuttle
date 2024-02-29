@@ -1,7 +1,7 @@
 <script></script>
 
 <template>
-  <section class="solutions flex-columns">
+  <section id="about" class="solutions flex-columns">
     <div class="row">
       <div class="column">
         <div class="column-1">

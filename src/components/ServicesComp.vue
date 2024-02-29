@@ -1,6 +1,6 @@
 <script></script>
 <template>
-  <section id="about" class="icons bg-light">
+  <section id="services" class="icons bg-light">
     <div class="flex-items">
       <div>
         <i class="fas fa-plane-departure fa-2x"></i>
