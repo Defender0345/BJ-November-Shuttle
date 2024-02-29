@@ -38,7 +38,13 @@ p {
   color: white;
 }
 
-.footer .social > * {
-  margin-right: 30px;
+.social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  a {
+    padding: 0 8px;
+  }
 }
 </style>

@@ -3,10 +3,9 @@
 <template>
   <header class="hero">
     <div class="navbar top" id="navbar">
-      <h1 class="logo">
-        <span class="text-secondary"><img src="../assets/Images/Logo.png" alt="" />.J </span
-        >November Shuttle Services
-      </h1>
+      <div class="logo">
+        <img class="nav-logo" src="../assets/Images/Nav-Logo.png" alt="" />
+      </div>
       <nav>
         <ul>
           <li><a href="#">Home</a></li>
@@ -42,19 +41,20 @@
     color: white;
     opacity: 0.8;
     width: 100%;
-    height: 70px;
+    height: 100px;
     position: fixed;
     top: 0px;
-    padding: 0 30px;
+    // padding: 0 30px;
     transition: 0.5s;
 
     .logo {
-      font-size: 2rem;
-      font-weight: 300;
-      .text-secondary {
-        img {
-          width: 3rem;
-        }
+      height: 100%;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      .nav-logo {
+        height: 100%;
+        // width: 100%;
       }
     }
     nav {
@@ -107,28 +107,19 @@
   z-index: 10;
 }
 
-@media (max-width: 1080px) {
-  .hero {
-    .navbar {
-      .logo {
-        font-size: 1.5rem;
-        font-weight: 200;
-      }
-    }
-  }
-}
 @media (max-width: 768px) {
   .hero {
     .navbar {
       flex-direction: column;
-      height: 120px;
-      padding: 20px;
+      justify-content: space-around;
+      height: 130px;
+      padding-bottom: 20px;
       .logo {
-        font-size: 2rem;
-        text-align: center;
+        height: 80%;
       }
       a {
-        padding: 10px 10px;
+        padding-left: 10px;
+        padding-right: 10px;
         margin: 0 3px;
       }
     }
@@ -139,6 +130,9 @@
   .hero {
     .navbar {
       height: 150px;
+      .logo {
+        height: 60%;
+      }
     }
   }
 }
@@ -146,10 +140,14 @@
 @media (max-width: 480px) {
   .hero {
     .navbar {
-      height: 200px;
+      height: 150px;
+      .logo {
+        height: 45%;
+      }
       nav {
         ul {
           flex-wrap: wrap;
+          justify-content: space-around;
           li {
             margin: 5px;
             a {
@@ -162,10 +160,13 @@
   }
 }
 
-@media (max-width: 370px) {
+@media (max-width: 390px) {
   .hero {
     .navbar {
-      height: 220px;
+      height: 200px;
+    }
+    .content {
+      padding-top: 200px;
     }
   }
 }
