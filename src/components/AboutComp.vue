@@ -10,12 +10,20 @@
       </div>
       <div class="column">
         <div class="column-2 bg-primary">
-          <h4>What you are looking for!</h4>
-          <h2>We provide World Class Shuttle Services</h2>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita aspernatur non qui
-            at, soluta voluptatem quibusdam nobis animi harum possimus nemo, modi ad placeat iure,
-            libero doloribus velit temporibus nam!
+          <h3>World Class, Luxurious in-vehicle Charter Service at Affordable Rates!</h3>
+          <div class="line"></div>
+          <p class="desc">
+            Embark on unforgettable wine tours, exhilarating whale watching adventures, and elegant
+            weddings and functions with our specialized transportation services. We provide reliable
+            shuttle solutions tailored to enhance your experience and ensure seamless travel from
+            start to finish.
+          </p>
+          <p class="desc">
+            Whether you're embarking on a wine tasting adventure, seeking close encounters with
+            marine life, celebrating a special occasion, or attending a glamorous function, our
+            transportation services are designed to elevate your experience and make every moment
+            memorable. Contact us today to book your shuttle service and embark on your next
+            unforgettable journey.
           </p>
         </div>
       </div>
@@ -25,6 +33,16 @@
 
 <style lang="scss" scoped>
 @import '@/assets/_shared.scss';
+
+.desc {
+  margin: 10px 0 !important;
+}
+
+.line {
+  width: 100%;
+  height: 10px;
+  background-image: linear-gradient(90deg, #2d8fc4 0%, #2d459e 100%);
+}
 
 @media (max-width: 768px) {
   .solutions {

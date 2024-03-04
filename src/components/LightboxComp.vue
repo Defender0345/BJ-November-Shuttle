@@ -7,23 +7,23 @@
       <img src="../assets/Images/Grid-Pictures/pic1.jpg" alt="" />
       <img src="../assets/Images/Grid-Pictures/pic6.jpg" alt="" />
       <img src="../assets/Images/Grid-Pictures/pic3.jpg" alt="" />
-      <img src="../assets/Images/Van-Pictures/van1.jpeg" alt="" />
+      <img src="../assets/Images/Grid-Pictures/pic14.jpg" alt="" />
     </div>
     <div class="column small">
-      <img src="../assets/Images/Grid-Pictures/pic5.jpg" alt="" />
-      <img src="../assets/Images/Grid-Pictures/pic2.jpg" alt="" />
+      <img src="../assets/Images/Grid-Pictures/pic13.jpg" alt="" />
       <img src="../assets/Images/Grid-Pictures/pic10.jpg" alt="" />
       <img src="../assets/Images/Grid-Pictures/pic8.jpg" alt="" />
+      <img src="../assets/Images/Grid-Pictures/pic7.jpg" alt="" />
     </div>
     <div class="column">
+      <img src="../assets/Images/Grid-Pictures/pic2.jpg" alt="" />
       <img src="../assets/Images/Grid-Pictures/pic9.jpg" alt="" />
-      <img src="../assets/Images/Grid-Pictures/pic7.jpg" alt="" />
       <img src="../assets/Images/Grid-Pictures/pic11.jpg" alt="" />
       <img src="../assets/Images/Van-Pictures/van4.jpeg" alt="" />
     </div>
     <div class="column small">
       <img src="../assets/Images/Grid-Pictures/pic4.jpg" alt="" />
-      <img src="../assets/Images/Van-Pictures/van2.jpeg" alt="" />
+      <img src="../assets/Images/Grid-Pictures/pic15.jpg" alt="" />
       <img src="../assets/Images/Van-Pictures/van3.jpeg" alt="" />
       <img src="../assets/Images/Grid-Pictures/pic12.jpg" alt="" />
     </div>
@@ -31,6 +31,9 @@
 </template>
 
 <style lang="scss" scoped>
+#gallery {
+  background: linear-gradient(90deg, #43bbfe 0%, #324488 60%);
+}
 .row {
   display: flex;
   flex-wrap: wrap;

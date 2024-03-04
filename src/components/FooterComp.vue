@@ -3,12 +3,17 @@
 <template>
   <footer class="footer gradient">
     <div class="social">
-      <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
-      <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+      <a
+        href="https://www.facebook.com/groups/704487061603088"
+        target="_blank"
+        rel="noopener noreferrer"
+        ><i class="fab fa-facebook fa-2x"></i
+      ></a>
+      <!-- <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
       <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
-      <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+      <a href="#"><i class="fab fa-linkedin fa-2x"></i></a> -->
     </div>
-    <p>Copyright &copy; 2024 - B.J November Tours &amp; Airport Shuttle Services</p>
+    <p>Copyright &copy; 2024 - B.J November Charter Services</p>
   </footer>
 </template>
 
