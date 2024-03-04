@@ -88,6 +88,10 @@
 
 .gradient {
   background-image: linear-gradient(90deg, #43bbfe 10%, #324488 100%);
+
+  h2 {
+    color: white;
+  }
 }
 .callback-form {
   width: 100%;
