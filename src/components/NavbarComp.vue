@@ -37,7 +37,7 @@
     align-items: center;
     justify-content: space-between;
     // flex-wrap: wrap;
-    background: #333 !important;
+    background: rgba(0.15, 0.15, 0.15, 0.4) !important;
     color: white;
     opacity: 0.8;
     width: 100%;
@@ -100,7 +100,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .hero * {
