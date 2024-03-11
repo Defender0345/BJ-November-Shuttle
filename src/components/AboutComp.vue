@@ -41,7 +41,7 @@
           <ul>
             <li>- Trailer rental</li>
             <li>- Cross-country trips</li>
-            <li>- Any additional services that may be required by for your trip.</li>
+            <li>- Any additional services that may be required for your trip.</li>
           </ul>
           </p>
         </div>
