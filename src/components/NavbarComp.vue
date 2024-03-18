@@ -4,7 +4,7 @@
   <header class="hero">
     <div class="navbar top" id="navbar">
       <div class="logo">
-        <img class="nav-logo" src="../assets/Images/Nav-Logo.png" alt="" />
+        <img class="nav-logo" src="../assets/Images/Nav-Logo.png" alt="BJN Charter Service Logo" />
       </div>
       <nav>
         <ul>
@@ -107,6 +107,15 @@
   z-index: 10;
 }
 
+@media (max-height: 400px) {
+  .hero {
+    .content {
+      h1 {
+        margin-top: 100px;
+      }
+    }
+  }
+}
 @media (max-width: 768px) {
   .hero {
     .navbar {

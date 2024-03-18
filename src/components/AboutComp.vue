@@ -5,7 +5,7 @@
     <div class="row">
       <div class="column">
         <div class="column-1">
-          <img src="../assets/Images/Grid-Pictures/pic5.jpg" alt="" />
+          <img src="../assets/Images/Grid-Pictures/pic5.jpg" alt="Picture of Benjamin with some clients at a hotel" />
         </div>
       </div>
       <div class="column">
@@ -53,6 +53,9 @@
 <style lang="scss" scoped>
 @import '@/assets/_shared.scss';
 
+.bg-primary {
+  background: #25a2c2;
+}
 .desc {
   margin: 10px 0 !important;
   text-shadow: 1px 1px 2px rgba(0.1, 0.1, 0.1, 0.4);

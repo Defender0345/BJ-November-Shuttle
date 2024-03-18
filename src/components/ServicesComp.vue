@@ -3,14 +3,14 @@
   <section id="services" class="icons bg-light">
     <div class="flex-items">
       <div>
-        <i class="fas fa-plane-departure fa-2x"></i>
+        <i class="fas fa-plane-departure fa-2x" alt="Plane Icon"></i>
         <div>
           <h3>Airport Shuttles</h3>
           <p>Reliable Airport Shuttle Services for Your Business/Personal Travel Needs.</p>
         </div>
       </div>
       <div>
-        <i class="fas fa-wine-bottle fa-2x"></i>
+        <i class="fas fa-wine-bottle fa-2x" alt="Wine Bottle Icon"></i>
         <div>
           <h3>Wine Tours</h3>
           <p>
@@ -20,7 +20,7 @@
         </div>
       </div>
       <div>
-        <i class="fas fa-street-view fa-2x"></i>
+        <i class="fas fa-street-view fa-2x" alt="Street View Icon"></i>
         <div>
           <h3>Sea and Whale Watching</h3>
           <p>
@@ -30,7 +30,7 @@
         </div>
       </div>
       <div>
-        <i class="fas fa-church fa-2x"></i>
+        <i class="fas fa-church fa-2x" alt="Church Icon"></i>
         <div>
           <h3>Weddings</h3>
           <p>
@@ -40,7 +40,7 @@
         </div>
       </div>
       <div>
-        <i class="fas fa-tree-city fa-2x"></i>
+        <i class="fas fa-tree-city fa-2x" alt="Tree and City Icon"></i>
         <div>
           <h3>Functions</h3>
           <p>

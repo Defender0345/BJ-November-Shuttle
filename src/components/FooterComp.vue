@@ -6,8 +6,9 @@
       <a
         href="https://www.facebook.com/groups/704487061603088"
         target="_blank"
+        aria-label="Link to BJN Charter Service facebook page"
         rel="noopener noreferrer"
-        ><i class="fab fa-facebook fa-2x"></i
+        ><i class="fab fa-facebook fa-2x" alt="Facebook Icon"></i
       ></a>
       <!-- <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
       <a href="#"><i class="fab fa-youtube fa-2x"></i></a>

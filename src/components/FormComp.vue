@@ -6,7 +6,10 @@
     <div class="row">
       <div class="column">
         <div class="column-1">
-          <img src="../assets/Images/Businesscard-No-BG.png" alt="" />
+          <img
+            src="../assets/Images/Businesscard-No-BG.png"
+            alt="BJN Charter Service business card with their logo"
+          />
         </div>
       </div>
       <div class="column">
