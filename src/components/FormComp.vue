@@ -22,7 +22,7 @@
                 type="hidden"
                 name="subject"
                 data-remove-prefix
-                value="Dylan Portfolio Website Form Submission (%{submissionId})"
+                value="BJN Website Form Submission (%{submissionId})"
               />
               <input type="hidden" name="form-name" value="ask-question" />
               <!-- Honeypot field -->
@@ -46,6 +46,7 @@
                 class="text-input subject-input"
                 placeholder="Subject..."
                 name="subject"
+                required
               />
               <!-- Email Field -->
               <input
