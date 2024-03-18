@@ -16,7 +16,13 @@
         <div class="column-2 gradient">
           <h2>Contact Us</h2>
           <!-- Netlify Form -->
-          <form name="contact" netlify method="POST" data-netlify="true" class="callback-form">
+          <form
+            name="contact"
+            method="post"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+            class="callback-form"
+          >
             <div class="form-control text-fields">
               <input
                 type="hidden"
