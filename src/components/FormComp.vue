@@ -15,9 +15,10 @@
       <div class="column">
         <div class="column-2 gradient">
           <h2>Contact Us</h2>
+          <p>Fields marked with * are required!</p>
           <!-- Netlify Form -->
           <form
-            name="contact"
+            name="ask-question"
             method="post"
             data-netlify="true"
             data-netlify-honeypot="bot-field"
@@ -42,7 +43,7 @@
               <input
                 type="text"
                 class="text-input name-input"
-                placeholder="Name..."
+                placeholder="Name...*"
                 name="name"
                 required
               />
@@ -52,13 +53,12 @@
                 class="text-input subject-input"
                 placeholder="Subject..."
                 name="subject"
-                required
               />
               <!-- Email Field -->
               <input
                 type="email"
                 class="text-input email-input"
-                placeholder="Email Address..."
+                placeholder="Email Address...*"
                 name="email"
                 required
               />
@@ -72,7 +72,7 @@
               <!-- Text Area -->
               <textarea
                 class="text-input message-input"
-                placeholder="Enter Message..."
+                placeholder="Enter Message...*"
                 name="message"
                 required
               ></textarea>
@@ -101,6 +101,12 @@
 
   h2 {
     color: white;
+  }
+  p {
+    font-size: 0.8rem;
+    margin: 0 0 0 5px;
+    padding: 0;
+    color: #353434;
   }
 }
 .callback-form {
