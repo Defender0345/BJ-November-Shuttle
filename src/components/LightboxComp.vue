@@ -15,7 +15,7 @@
         alt="Picture of the Waterfront in Cape Town"
       />
     </div>
-    <div class="column small">
+    <div class="column">
       <img
         src="../assets/Images/Grid-Pictures/pic13.jpg"
         alt="Picture of an art installation in a mall"
@@ -42,7 +42,7 @@
         alt="Picture of the inside of the shuttle"
       />
     </div>
-    <div class="column small">
+    <div class="column">
       <img src="../assets/Images/Grid-Pictures/pic4.jpg" alt="Picture of snowy capped mountains" />
       <img
         src="../assets/Images/Grid-Pictures/pic15.jpg"
